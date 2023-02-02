@@ -1,0 +1,1 @@
+const usage='直接调用指令，即可得到今日的摸鱼人日历图片';module.exports={name:'moyu2',Config:require('koishi').Schema.object({}),usage,apply:(ctx)=>ctx.command('moyu','摸鱼人日历').usage(usage).example('moyu').action(async()=>require('koishi').h.image((await ctx.http.get('https://api.vvhan.com/api/moyu',{responseType:'arraybuffer',})),'image/png'))}
