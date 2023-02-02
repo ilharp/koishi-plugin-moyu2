@@ -1,0 +1,1 @@
+{"name":"koishi-plugin-moyu2","description":"摸鱼人日历","version":"0.1.0","main":"index.js","files":["index.js"],"license":"MIT","keywords":["chatbot","koishi","plugin","moyu"],"peerDependencies":{"koishi":"^4.10.0"}}
